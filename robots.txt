@@ -1,0 +1,31 @@
+# CUET History Master - Robots File for Search Engines
+# This file tells search engines how to crawl and index the website
+
+User-agent: *
+Allow: /
+Allow: /api/
+
+# Disallow sensitive paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /ncert_pdfs/
+Disallow: /database/
+
+# Specific crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Specify sitemap location for better indexing
+Sitemap: /sitemap.xml
+
+# Crawl delay (time to wait between requests in seconds)
+Crawl-delay: 2
+
+# Maximum files to crawl per day
+Request-rate: 30/1m

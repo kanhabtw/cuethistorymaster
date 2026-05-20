@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Master CUET History with AI-powered study guides, NCERT chapter notes, past year questions, assertion-reason practice, and personalized exam preparation tools.">
+    <meta name="keywords" content="CUET History, NCERT History, exam preparation, study guide, past year questions, history notes, assertion-reason questions, CUET exam">
+    <meta name="author" content="CUET History Master">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#2c3e50">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Open Graph Tags for Social Media Sharing -->
+    <meta property="og:title" content="CUET History Master | NCERT Based Study Guide">
+    <meta property="og:description" content="Master CUET History with AI-powered study guides, NCERT chapter notes, past year questions, and personalized exam preparation.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yoursite.com/og-image.png">
+    <meta property="og:image:alt" content="CUET History Master - Study Guide">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CUET History Master | NCERT Based Study Guide">
+    <meta name="twitter:description" content="Master CUET History with AI-powered study guides and exam preparation tools.">
+    <meta name="twitter:image" content="https://yoursite.com/twitter-image.png">
+    
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://yoursite.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%232c3e50'>📚</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%232c3e50'>📚</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Enhanced Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalWebApplication",
+        "name": "CUET History Master",
+        "description": "AI-powered NCERT-based study guide for CUET History preparation",
+        "url": "https://yoursite.com/",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+            "@type": "Offer",
+            "category": "Educational Resources",
+            "price": "0",
+            "priceCurrency": "INR"
+        },
+        "featureList": [
+            "AI-powered chapter analysis",
+            "NCERT-based notes",
+            "Past year questions",
+            "Assertion-reason practice",
+            "Interactive quizzes",
+            "Historian perspectives",
+            "Timeline and chronology"
+        ]
+    }
+    </script>
+    
+    <!-- Additional Schema for Course -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "CUET History Master",
+        "description": "Comprehensive NCERT-based history preparation for CUET exam",
+        "inLanguage": "en",
+        "url": "https://yoursite.com/",
+        "coursePrerequisites": "Basic knowledge of Indian History",
+        "educationLevel": "Undergraduate"
+    }
+    </script>
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Enhanced Sidebar Navigation -->
+        <aside class="sidebar" role="navigation" aria-label="Chapter navigation">
+            <div class="sidebar-header">
+                <h1>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                        <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                    </svg>
+                    <span>CUET History</span>
+                </h1>
+                <p>Master the NCERT Syllabus</p>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="sidebar-search">
+                <label for="search-chapters" class="sr-only">Search chapters by name</label>
+                <input type="text" id="search-chapters" class="search-input" placeholder="🔍 Search chapters..." aria-label="Search for history chapters">
+            </div>
+
+            <!-- Chapter Navigation -->
+            <nav id="chapter-nav" aria-label="Chapter list">
+                <!-- Chapters injected via JavaScript -->
+            </nav>
+
+            <!-- AI Analysis Widget -->
+            <div class="tf-analysis-widget">
+                <h2><i class="fa-solid fa-brain" aria-hidden="true"></i> AI Insights</h2>
+                <p>Analyze patterns in past questions</p>
+                <button id="run-analysis-btn" aria-label="Analyze topics with AI">
+                    <i class="fa-solid fa-sparkles" aria-hidden="true"></i> Analyze Topics
+                </button>
+                <div id="analysis-output" class="analysis-output" role="region" aria-live="polite" aria-label="AI analysis results"></div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area" role="main">
+            <!-- Welcome Screen -->
+            <div id="welcome-screen" class="active-screen">
+                <i class="fa-solid fa-scroll welcome-icon" aria-hidden="true"></i>
+                <h1>CUET History Mastery</h1>
+                <p>Select a chapter from the sidebar to explore comprehensive notes, timelines, historians' perspectives, and past exam questions tailored for CUET preparation.</p>
+            </div>
+
+            <!-- Chapter Content -->
+            <div id="chapter-content" class="hidden">
+                <!-- Chapter Header -->
+                <header class="chapter-header">
+                    <span id="chapter-part" class="badge">Part 1</span>
+                    <h1 id="chapter-title">Chapter Title</h1>
+                </header>
+
+                <!-- AI Predicted Topics Section -->
+                <section class="section-card" aria-labelledby="topics-heading">
+                    <h2 id="topics-heading">
+                        <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> High-Probability Topics
+                    </h2>
+                    <p class="section-desc">Topics most likely to appear based on AI analysis</p>
+                    <div id="recurring-topics-list" class="topics-grid" role="list">
+                        <!-- Injected via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Conceptual Mind Map -->
+                <section class="section-card" aria-labelledby="mindmap-heading">
+                    <h2 id="mindmap-heading">
+                        <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Conceptual Links
+                    </h2>
+                    <p class="section-desc">Use this section to see how causes lead to key events and what consequences followed — perfect for building strong CUET answers.</p>
+                    <div id="mind-map-container" class="mind-map-grid" role="region" aria-label="Cause-event-consequence diagrams">
+                        <!-- Injected via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Chronology Timeline -->
+                <section class="section-card" aria-labelledby="timeline-heading">
+                    <h2 id="timeline-heading">
+                        <i class="fa-solid fa-hourglass-end" aria-hidden="true"></i> Timeline & Dates
+                    </h2>
+                    <p class="section-desc">Key events arranged chronologically</p>
+                    <div class="timeline-container" id="timeline-list" role="region" aria-label="Historical timeline of events">
+                        <!-- Injected via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Key Historians -->
+                <section class="section-card" aria-labelledby="historians-heading">
+                    <h2 id="historians-heading">
+                        <i class="fa-solid fa-people-group" aria-hidden="true"></i> Key Historians
+                    </h2>
+                    <p class="section-desc">Major scholars and their contributions</p>
+                    <div id="historians-list" class="historians-grid" role="list">
+                        <!-- Injected via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Sources & Evidence -->
+                <section class="section-card" aria-labelledby="sources-heading">
+                    <h2 id="sources-heading">
+                        <i class="fa-solid fa-book" aria-hidden="true"></i> Sources & Evidence
+                    </h2>
+                    <p class="section-desc">Primary and secondary sources from NCERT</p>
+                    <div id="sources-list" class="sources-grid" role="list">
+                        <!-- Injected via JavaScript -->
+                    </div>
+                    <div class="map-reference" id="map-reference" role="doc-notice">
+                        <!-- Map reference injected via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- In-Text CUET Questions -->
+                <section class="section-card" aria-labelledby="intext-heading">
+                    <h2 id="intext-heading">
+                        <i class="fa-solid fa-question-circle" aria-hidden="true"></i> AI-Created In-Text CUET Questions
+                    </h2>
+                    <p class="section-desc">Generate chapter-based questions similar to those asked in CUET.</p>
+                    <div id="intext-questions" class="intext-grid" role="region" aria-label="In-text practice questions">
+                        <!-- Injected via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Assertion-Reason Questions Section -->
+                <section class="section-card" aria-labelledby="assertion-heading">
+                    <h2 id="assertion-heading">
+                        <i class="fa-solid fa-check-double" aria-hidden="true"></i> Assertion-Reason Questions
+                    </h2>
+                    <p class="section-desc">Test your deep understanding with CUET-style assertion-reason questions. Each question requires evaluating both the assertion and the reason.</p>
+                    <div id="assertion-reason-container" class="assertion-reason-grid" role="region" aria-label="Assertion-reason practice questions">
+                        <!-- Injected via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Practice Quiz Section -->
+                <section class="section-card" aria-labelledby="quiz-heading">
+                    <h2 id="quiz-heading">
+                        <i class="fa-solid fa-chalkboard" aria-hidden="true"></i> Practice Quiz
+                    </h2>
+                    <p class="section-desc">Generate a short topic-based CUET-style quiz and test your recall instantly.</p>
+                    <div class="quiz-settings">
+                        <label for="topic-quiz-select">Choose a topic:</label>
+                        <select id="topic-quiz-select" class="quiz-select" aria-label="Select a topic for practice quiz">
+                            <option value="">Select a recurring topic</option>
+                        </select>
+                        <button id="load-quiz-btn" class="primary-btn" aria-label="Generate practice quiz for selected topic">Generate Quiz</button>
+                    </div>
+                    <div id="quiz-output" class="quiz-output" role="region" aria-live="polite" aria-label="Quiz questions and answers">
+                        <p class="quiz-placeholder">Select a chapter topic and generate a practice quiz.</p>
+                    </div>
+                    <div id="quiz-controls" class="quiz-controls hidden">
+                        <button id="grade-quiz-btn" class="primary-btn" aria-label="Check quiz answers">Check Answers</button>
+                        <button id="reset-quiz-btn" class="secondary-btn" aria-label="Reset quiz">Reset</button>
+                    </div>
+                    <div id="quiz-score" class="quiz-score" role="region" aria-live="assertive" aria-label="Quiz score"></div>
+                </section>
+
+                <!-- Exam-Focused Section -->
+                <section class="section-card" aria-labelledby="exam-heading">
+                    <h2 id="exam-heading">
+                        <i class="fa-solid fa-pencil" aria-hidden="true"></i> Exam Preparation
+                    </h2>
+                    <p class="section-desc">Direct NCERT questions and past exam papers</p>
+                    
+                    <!-- Tabs -->
+                    <div class="exam-tabs" role="tablist">
+                        <button class="tab-btn active" data-target="cuet-notes" role="tab" aria-selected="true" aria-controls="cuet-notes">
+                            <i class="fa-solid fa-list" aria-hidden="true"></i> NCERT In-Text Q&A
+                        </button>
+                        <button class="tab-btn" data-target="cuet-pyq" role="tab" aria-selected="false" aria-controls="cuet-pyq">
+                            <i class="fa-solid fa-file" aria-hidden="true"></i> Past Papers
+                        </button>
+                    </div>
+
+                    <!-- NCERT Notes Content -->
+                    <div id="cuet-notes" class="exam-content active-tab" role="tabpanel" aria-labelledby="cuet-notes-tab">
+                        <!-- Injected via JavaScript -->
+                    </div>
+
+                    <!-- Past Year Questions -->
+                    <div id="cuet-pyq" class="exam-content" role="tabpanel" aria-labelledby="cuet-pyq-tab">
+                        <!-- Injected via JavaScript -->
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Topic Details Modal -->
+        <div id="topic-modal" class="modal" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="topic-modal-title">
+            <div class="modal-content">
+                <button class="modal-close" id="topic-modal-close" aria-label="Close modal">&times;</button>
+                <h2 id="topic-modal-title">Topic Details</h2>
+                <div id="topic-modal-body" class="topic-questions-container" role="region" aria-label="Topic details and questions">
+                    <!-- Questions injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer with SEO Info -->
+    <footer role="contentinfo" aria-label="Site footer">
+        <div class="footer-content">
+            <p>&copy; 2024 CUET History Master. All rights reserved.</p>
+            <p>This educational platform provides NCERT-based study materials and practice questions for CUET preparation.</p>
+            <p>
+                <a href="/privacy" title="Read our privacy policy">Privacy Policy</a> | 
+                <a href="/terms" title="Read our terms of service">Terms of Service</a> | 
+                <a href="/sitemap" title="View our XML sitemap">Sitemap</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js"></script>
+    <script src="seo-handler.js"></script>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
