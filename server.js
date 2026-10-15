@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require('express');
-const cors = require('cors');
+const { rateLimit } = require('express-rate-limit');
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
@@ -21,6 +21,23 @@ async function parsePDF(dataBuffer) {
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const aiRateLimiters = [
+    rateLimit({
+        windowMs: 60 * 60 * 1000,
+        limit: 20,
+        standardHeaders: true,
+        legacyHeaders: false,
+        message: { error: 'RATE_LIMIT_EXCEEDED', message: 'AI request limit reached. Try again later.' }
+    }),
+    rateLimit({
+        windowMs: 60 * 60 * 1000,
+        limit: 50,
+        keyGenerator: () => 'global-ai-budget',
+        standardHeaders: true,
+        legacyHeaders: false,
+        message: { error: 'AI_BUDGET_LIMIT_REACHED', message: 'AI request capacity is temporarily exhausted.' }
+    })
+];
 
 // Ensure necessary directories exist
 const dbDir = path.join(__dirname, 'database');
@@ -33,9 +50,7 @@ if (!fs.existsSync(pdfDir)) {
     fs.mkdirSync(pdfDir, { recursive: true });
 }
 
-app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname))); // Serve static frontend files
 
 // ==================== SEO OPTIMIZATION MIDDLEWARE ====================
 
@@ -66,23 +81,11 @@ app.use((req, res, next) => {
     next();
 });
 
-// 6. Add Cache Headers for Static Files
-app.use(express.static(path.join(__dirname), {
+// 6. Serve frontend assets without exposing project files
+app.use(express.static(path.join(__dirname, 'public'), {
     maxAge: '1d',
     etag: false
 }));
-
-// 7. Sitemap Route
-app.get('/sitemap.xml', (req, res) => {
-    res.type('application/xml');
-    res.sendFile(path.join(__dirname, 'sitemap.xml'));
-});
-
-// 8. Robots.txt Route
-app.get('/robots.txt', (req, res) => {
-    res.type('text/plain');
-    res.sendFile(path.join(__dirname, 'robots.txt'));
-});
 
 // =====================================================================
 
@@ -104,11 +107,20 @@ const chapters = [
     { id: "constitution", title: "The Making of the Constitution", part: "Part 3" }
 ];
 
+const chapterIds = new Set(chapters.map(chapter => chapter.id));
+
+function validateChapterId(req, res, next) {
+    if (!chapterIds.has(req.params.id)) {
+        return res.status(404).json({ error: 'CHAPTER_NOT_FOUND', message: 'Chapter not found.' });
+    }
+    next();
+}
+
 app.get('/api/chapters', (req, res) => {
     res.json(chapters);
 });
 
-app.get('/api/chapter/:id', async (req, res) => {
+app.get('/api/chapter/:id', validateChapterId, ...aiRateLimiters, async (req, res) => {
     const { id } = req.params;
     const dbPath = path.join(__dirname, 'database', `${id}.json`);
     const pdfPath = path.join(__dirname, 'ncert_pdfs', `${id}.pdf`);
@@ -290,7 +302,7 @@ ${text}
     }
 });
 
-app.get('/api/insights/:id', async (req, res) => {
+app.get('/api/insights/:id', validateChapterId, ...aiRateLimiters, async (req, res) => {
     const { id } = req.params;
     const dbPath = path.join(__dirname, 'database', `${id}.json`);
 
@@ -403,7 +415,7 @@ ${JSON.stringify({
     }
 });
 
-app.get('/api/topic-details/:id/:topic', async (req, res) => {
+app.get('/api/topic-details/:id/:topic', validateChapterId, ...aiRateLimiters, async (req, res) => {
     const { id, topic } = req.params;
     const dbPath = path.join(__dirname, 'database', `${id}.json`);
 
@@ -513,7 +525,7 @@ Return ONLY valid JSON (no markdown or extra text):
     }
 });
 
-app.get('/api/topic-pyq/:id/:topic', async (req, res) => {
+app.get('/api/topic-pyq/:id/:topic', validateChapterId, ...aiRateLimiters, async (req, res) => {
     const { id, topic } = req.params;
     const dbPath = path.join(__dirname, 'database', `${id}.json`);
 
@@ -720,41 +732,9 @@ JSON format:
     }
 }
 
-// Auto-generate assertion-reason questions for all chapters on startup
-async function autoGenerateAssertionReasons() {
-    console.log('\n📚 Checking chapters for assertion-reason questions...\n');
-    
-    try {
-        const dbDir = path.join(__dirname, 'database');
-        const files = fs.readdirSync(dbDir).filter(f => f.endsWith('.json'));
-
-        if (files.length === 0) {
-            console.log('No chapters found in database folder.');
-            return;
-        }
-
-        for (const file of files) {
-            const filePath = path.join(dbDir, file);
-            await generateAssertionReasonQuestions(filePath);
-            
-            // Add delay between API calls to avoid rate limiting
-            await new Promise(resolve => setTimeout(resolve, 2000));
-        }
-
-        console.log('\n✨ Assertion-reason question generation complete!\n');
-    } catch (error) {
-        console.error('Error in autoGenerateAssertionReasons:', error.message);
-    }
-}
-
-app.listen(PORT, async () => {
+app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
     console.log(`Ensure you have added your API key to the .env file.`);
     console.log(`Ensure you have placed your PDFs in the 'ncert_pdfs' directory named like 'harappan.pdf', 'early-states.pdf', etc.`);
-    
-    // Auto-generate assertion-reason questions after a brief delay
-    setTimeout(() => {
-        autoGenerateAssertionReasons();
-    }, 1000);
 });
 

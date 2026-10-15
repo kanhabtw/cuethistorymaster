@@ -1,6 +1,6 @@
 // Only run in browser environment
 if (typeof document !== 'undefined') {
-    document.addEventListener('DOMContentLoaded', async () => {
+    const initializeApp = async () => {
         const chapterNav = document.getElementById('chapter-nav');
         const welcomeScreen = document.getElementById('welcome-screen');
         const chapterContent = document.getElementById('chapter-content');
@@ -63,7 +63,6 @@ if (typeof document !== 'undefined') {
         }
     }
 
-    // Load Chapter Data from API or Cache
     async function loadChapter(id, forceRefresh = false) {
         if (currentChapterId === id && !forceRefresh) return;
         currentChapterId = id;
@@ -652,5 +651,10 @@ if (typeof document !== 'undefined') {
             `;
         }
     };
-});
+    };
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeApp, { once: true });
+    } else {
+        initializeApp();
+    }
 }

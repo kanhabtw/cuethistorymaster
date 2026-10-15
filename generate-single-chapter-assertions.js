@@ -1,6 +1,7 @@
 require('dotenv').config();
 const https = require('https');
 const fs = require('fs');
+const path = require('path');
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 
@@ -87,7 +88,7 @@ Return ONLY valid JSON array with no other text:
 }
 
 async function main() {
-  const chapterPath = 'c:/Users/Monika Yadav/OneDrive/Documents/projects/database/bhakti-sufi.json';
+  const chapterPath = path.join(__dirname, 'database', 'bhakti-sufi.json');
   const chapter = JSON.parse(fs.readFileSync(chapterPath, 'utf8'));
 
   console.log(`Generating for: ${chapter.title}...`);

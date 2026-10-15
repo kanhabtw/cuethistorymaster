@@ -1,5 +1,4 @@
 # CUET History Master - Robots File for Search Engines
-# This file tells search engines how to crawl and index the website
 
 User-agent: *
 Allow: /

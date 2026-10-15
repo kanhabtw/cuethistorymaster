@@ -1,0 +1,256 @@
+{
+  "id": "social-histories",
+  "title": "Kinship, Caste and Class",
+  "part": "Part 1",
+  "recurringTopics": [
+    "Mahabharata",
+    "Kinship",
+    "Caste System",
+    "Social Hierarchies",
+    "Marriage Practices",
+    "Historical Texts"
+  ],
+  "timeline": [
+    {
+      "year": "600 BCE",
+      "event": "Emergence of distinct social groups due to agricultural expansion."
+    },
+    {
+      "year": "500 BCE",
+      "event": "Composition of the Mahabharata begins."
+    },
+    {
+      "year": "200 BCE",
+      "event": "Compilation of Manusmriti, outlining social norms."
+    },
+    {
+      "year": "200 CE",
+      "event": "Significant additions to the Mahabharata, including didactic sections."
+    },
+    {
+      "year": "400 CE",
+      "event": "Further expansions of the Mahabharata, solidifying its status as a major epic."
+    }
+  ],
+  "mindMap": [
+    {
+      "cause": "Agricultural expansion",
+      "event": "Emergence of social hierarchies",
+      "consequence": "Formation of distinct social groups",
+      "explanation": "Agriculture led to wealth accumulation and social stratification."
+    },
+    {
+      "cause": "Composition of the Mahabharata",
+      "event": "Documentation of social norms",
+      "consequence": "Influence on societal values and behaviors",
+      "explanation": "The epic reflects and shapes the understanding of kinship and caste."
+    },
+    {
+      "cause": "Brahmanical texts",
+      "event": "Codification of social roles",
+      "consequence": "Reinforcement of caste hierarchy",
+      "explanation": "Texts like Manusmriti established norms that dictated social behavior."
+    },
+    {
+      "cause": "Patrilineal succession",
+      "event": "Shift in family dynamics",
+      "consequence": "Increased importance of male heirs",
+      "explanation": "Patriliny emphasized male lineage, affecting inheritance and social status."
+    },
+    {
+      "cause": "Regional variations in text transmission",
+      "event": "Diverse interpretations of norms",
+      "consequence": "Complex social realities",
+      "explanation": "Different regions adapted texts to fit local customs and practices."
+    },
+    {
+      "cause": "Economic resources",
+      "event": "Access to wealth",
+      "consequence": "Social mobility and status",
+      "explanation": "Wealth influenced social standing, challenging rigid caste boundaries."
+    }
+  ],
+  "historians": [
+    {
+      "name": "V.S. Sukthankar",
+      "argument": "Led the critical edition of the Mahabharata, highlighting its textual variations."
+    },
+    {
+      "name": "Romila Thapar",
+      "argument": "Emphasizes the importance of regional diversity in understanding ancient Indian society."
+    }
+  ],
+  "sources": [
+    {
+      "type": "Textual",
+      "description": "Mahabharata and Manusmriti as primary sources for understanding social norms."
+    },
+    {
+      "type": "Archaeological",
+      "description": "Excavations at Hastinapura providing insights into early urban life."
+    }
+  ],
+  "maps": "Kuru Panchala region, locations of significant events in the Mahabharata.",
+  "cuetNotes": [
+    "Q: Discuss the significance of the Mahabharata in understanding social histories.",
+    "A: The Mahabharata serves as a crucial text that reflects and influences social norms, kinship, and caste dynamics in ancient India."
+  ],
+  "intextQuestions": [
+    {
+      "question": "What role did the Mahabharata play in shaping social norms?",
+      "answer": "The Mahabharata documented and reinforced social norms, particularly regarding kinship and caste, influencing societal behaviors."
+    },
+    {
+      "question": "How did agricultural expansion impact social structures?",
+      "answer": "Agricultural expansion led to wealth accumulation, resulting in the emergence of distinct social groups and sharper social differences."
+    },
+    {
+      "question": "What is the significance of patriliny in early Indian society?",
+      "answer": "Patriliny emphasized male lineage, affecting inheritance rights and reinforcing the importance of male heirs in succession."
+    },
+    {
+      "question": "How did Brahmanical texts influence social hierarchies?",
+      "answer": "Brahmanical texts like the Manusmriti codified social roles and justified the caste system, asserting divine origins for social order."
+    }
+  ],
+  "pyq": [
+    {
+      "year": 2021,
+      "question": "What does the Mahabharata reveal about kinship in ancient India?",
+      "options": [
+        "A. It emphasizes matrilineal succession",
+        "B. It highlights the importance of patriliny",
+        "C. It ignores social norms",
+        "D. It promotes egalitarianism"
+      ],
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "question": "Which text is primarily associated with the codification of social norms?",
+      "options": [
+        "A. Rigveda",
+        "B. Manusmriti",
+        "C. Upanishads",
+        "D. Puranas"
+      ],
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "question": "What was the primary focus of the critical edition of the Mahabharata?",
+      "options": [
+        "A. To simplify the text",
+        "B. To document variations",
+        "C. To promote a single narrative",
+        "D. To translate into modern languages"
+      ],
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "question": "How did economic resources affect social mobility?",
+      "options": [
+        "A. They had no impact",
+        "B. They restricted movement",
+        "C. They allowed for upward mobility",
+        "D. They enforced caste boundaries"
+      ],
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "question": "What does the term 'jati' refer to in the context of social categories?",
+      "options": [
+        "A. A fixed caste",
+        "B. A profession-based group",
+        "C. A religious sect",
+        "D. A family lineage"
+      ],
+      "answer": "B"
+    }
+  ],
+  "assertionReasonQuestions": [
+    {
+      "question_id": 1,
+      "assertion": "The composition of the Mahabharata during 500 BCE played a significant role in shaping societal values and behaviors.",
+      "reason": "Historical texts like the Mahabharata often served as moral guides and influenced the conduct of individuals.",
+      "options": [
+        "A. True, B. False, C. Not enough information, D. Maybe"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 2,
+      "assertion": "The emergence of distinct social groups around 600 BCE was primarily a result of agricultural expansion.",
+      "reason": "The increase in agricultural activities led to the formation of settled communities and the division of labor based on economic activities.",
+      "options": [
+        "A. True, B. False, C. Not enough information, D. Maybe"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 3,
+      "assertion": "The Manusmriti, compiled around 200 BCE, reinforced the existing caste hierarchy in ancient Indian society.",
+      "reason": "Brahmanical texts like the Manusmriti prescribed social norms and duties based on one's caste, maintaining social order.",
+      "options": [
+        "A. True, B. False, C. Not enough information, D. Maybe"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 4,
+      "assertion": "Regional variations in the transmission of ancient texts like the Mahabharata reflect the complex social realities of different regions.",
+      "reason": "The diverse interpretations and adaptations of the Mahabharata highlight the regional differences in social structures and practices.",
+      "options": [
+        "A. True, B. False, C. Not enough information, D. Maybe"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 5,
+      "assertion": "Patrilineal succession, emphasizing the importance of male heirs, contributed to the reinforcement of social hierarchies in ancient Indian society.",
+      "reason": "The preference for male heirs in patrilineal societies perpetuated the existing power dynamics and inheritance patterns, maintaining social stratification.",
+      "options": [
+        "A. True, B. False, C. Not enough information, D. Maybe"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 6,
+      "assertion": "Romila Thapar's emphasis on regional diversity in understanding ancient Indian society highlights the need to consider local variations in social structures and practices.",
+      "reason": "Regional differences in customs, traditions, and interpretations of texts like the Mahabharata provide valuable insights into the complexity of ancient Indian societies.",
+      "options": [
+        "A. True, B. False, C. Not enough information, D. Maybe"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 7,
+      "assertion": "Economic resources played a crucial role in determining social mobility and status in ancient Indian society.",
+      "reason": "Access to wealth and resources often facilitated upward social mobility, allowing individuals to climb the social ladder.",
+      "options": [
+        "A. True, B. False, C. Not enough information, D. Maybe"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 8,
+      "assertion": "V.S. Sukthankar's work on the critical edition of the Mahabharata highlighted the textual variations and complexities of the epic, shedding light on its diverse interpretations.",
+      "reason": "By analyzing different versions and manuscripts of the Mahabharata, Sukthankar revealed the richness and diversity of the epic's narrative and thematic elements.",
+      "options": [
+        "A. True, B. False, C. Not enough information, D. Maybe"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 9,
+      "assertion": "The significant additions to the Mahabharata around 200 CE, including didactic sections, aimed to impart moral and ethical teachings to the audience.",
+      "reason": "The didactic sections in the Mahabharata served as instructional narratives, conveying important life lessons and ethical principles to the readers.",
+      "options": [
+        "A. True, B. False, C. Not enough information, D. Maybe"
+      ],
+      "answer": "A"
+    }
+  ]
+}

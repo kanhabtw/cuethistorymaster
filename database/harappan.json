@@ -1,0 +1,404 @@
+{
+  "id": "harappan",
+  "title": "Bricks, Beads and Bones: The Harappan Civilisation",
+  "part": "Part 1",
+  "recurringTopics": [
+    "Harappan seals",
+    "Mature Harappan phase",
+    "Subsistence strategies",
+    "Urban planning",
+    "Craft production",
+    "Trade and contact with other civilizations"
+  ],
+  "timeline": [
+    {
+      "year": "6000 BCE",
+      "event": "Emergence of early farming communities leading to the Harappan culture."
+    },
+    {
+      "year": "2600 BCE",
+      "event": "Beginning of the Mature Harappan phase characterized by urbanization."
+    },
+    {
+      "year": "1900 BCE",
+      "event": "Decline of the Harappan civilization begins."
+    },
+    {
+      "year": "1300 BCE",
+      "event": "End of the Harappan civilization."
+    }
+  ],
+  "mindMap": [
+    {
+      "cause": "Development of agriculture",
+      "event": "Emergence of Harappan civilization",
+      "consequence": "Urban centers like Mohenjodaro and Harappa",
+      "explanation": "Agriculture led to surplus production, enabling urbanization."
+    },
+    {
+      "cause": "Standardized brick sizes",
+      "event": "Urban planning in Harappan cities",
+      "consequence": "Well-structured cities with drainage systems",
+      "explanation": "Uniform brick sizes facilitated organized construction and urban planning."
+    },
+    {
+      "cause": "Trade with Mesopotamia",
+      "event": "Cultural exchange",
+      "consequence": "Introduction of new materials and technologies",
+      "explanation": "Trade routes allowed for the exchange of goods and cultural practices."
+    },
+    {
+      "cause": "Craft specialization",
+      "event": "Development of various crafts",
+      "consequence": "Diverse economic activities and trade",
+      "explanation": "Specialization in crafts led to economic growth and trade networks."
+    },
+    {
+      "cause": "Environmental changes",
+      "event": "Decline of Harappan cities",
+      "consequence": "Shift to rural lifestyles",
+      "explanation": "Climatic changes and resource depletion contributed to urban decline."
+    }
+  ],
+  "historians": [
+    {
+      "name": "John Marshall",
+      "argument": "He identified the Harappan civilization as a significant ancient culture contemporaneous with Mesopotamia."
+    },
+    {
+      "name": "R.E.M. Wheeler",
+      "argument": "He emphasized the importance of stratigraphy in archaeological excavations to understand the Harappan civilization."
+    }
+  ],
+  "sources": [
+    {
+      "type": "Archaeological evidence",
+      "description": "Artifacts such as seals, pottery, and tools provide insights into Harappan life."
+    },
+    {
+      "type": "Historical texts",
+      "description": "Mesopotamian records mention trade with the Harappan civilization."
+    }
+  ],
+  "maps": "Locations of major Harappan sites such as Mohenjodaro, Harappa, Dholavira, and Lothal.",
+  "cuetNotes": [
+    "Q: What characterized the Mature Harappan phase? A: The Mature Harappan phase was marked by urbanization, advanced drainage systems, and trade networks."
+  ],
+  "intextQuestions": [
+    {
+      "question": "What were the main features of Harappan urban planning?",
+      "answer": "Harappan urban planning included standardized brick sizes, a grid pattern of streets, and advanced drainage systems."
+    },
+    {
+      "question": "How did agriculture influence the Harappan civilization?",
+      "answer": "Agriculture provided surplus food, which supported population growth and the development of urban centers."
+    },
+    {
+      "question": "What evidence suggests that the Harappans engaged in trade?",
+      "answer": "The presence of Harappan seals and artifacts in Mesopotamia indicates active trade between the two civilizations."
+    },
+    {
+      "question": "What were the possible reasons for the decline of the Harappan civilization?",
+      "answer": "The decline may have been caused by climatic changes, resource depletion, and the abandonment of urban centers."
+    }
+  ],
+  "pyq": [
+    {
+      "year": 2021,
+      "question": "What was the significance of the Great Bath in Mohenjodaro?",
+      "options": [
+        "A: It was a public bathing area",
+        "B: It was a storage facility",
+        "C: It was a temple",
+        "D: It was a residential building"
+      ],
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "question": "Which material was primarily used for making Harappan seals?",
+      "options": [
+        "A: Clay",
+        "B: Steatite",
+        "C: Wood",
+        "D: Metal"
+      ],
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "question": "What does the uniformity of Harappan weights indicate?",
+      "options": [
+        "A: Centralized authority",
+        "B: Local production",
+        "C: Cultural diversity",
+        "D: Trade with Mesopotamia"
+      ],
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "question": "What was a major subsistence strategy of the Harappans?",
+      "options": [
+        "A: Hunting",
+        "B: Fishing",
+        "C: Agriculture",
+        "D: Pastoralism"
+      ],
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "question": "Which of the following was a key feature of Harappan cities?",
+      "options": [
+        "A: Mud huts",
+        "B: Fortified walls",
+        "C: Large pyramids",
+        "D: Wooden structures"
+      ],
+      "answer": "B"
+    }
+  ],
+  "assertionReasonQuestions": [
+    {
+      "question_id": 1,
+      "assertion": "Harappan seals were used for trade and administrative purposes.",
+      "reason": "The presence of script on the seals suggests their role in recording transactions and identifying officials.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 2,
+      "assertion": "The Mature Harappan phase was characterized by the development of well-planned urban centers.",
+      "reason": "Cities like Mohenjodaro and Harappa had standardized brick sizes and sophisticated drainage systems.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 3,
+      "assertion": "Trade with Mesopotamia during the Harappan civilization led to the introduction of new materials and technologies.",
+      "reason": "The exchange of goods between the two regions facilitated cultural diffusion and technological advancements.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 4,
+      "assertion": "Craft specialization in the Harappan civilization resulted in diverse economic activities and trade.",
+      "reason": "Different craftspeople focused on specific skills, leading to the production of a wide range of goods for exchange.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 5,
+      "assertion": "Environmental changes played a role in the shift to rural lifestyles towards the end of the Harappan civilization.",
+      "reason": "As the urban centers declined, some populations moved towards rural areas for subsistence.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 6,
+      "assertion": "John Marshall identified the Harappan civilization as a significant ancient culture contemporaneous with Mesopotamia.",
+      "reason": "His work highlighted the importance of the Harappan civilization in the context of ancient civilizations of the time.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 7,
+      "assertion": "R.E.M. Wheeler emphasized the importance of stratigraphy in archaeological excavations to understand the Harappan civilization.",
+      "reason": "His approach focused on the layers of occupation and their chronological sequence to interpret the history of the Harappan sites.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 8,
+      "assertion": "The emergence of early farming communities around 6000 BCE laid the foundation for the Harappan culture.",
+      "reason": "Agricultural practices allowed for settled life and surplus production, enabling the growth of urban centers later on.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 9,
+      "assertion": "The decline of the Harappan civilization began around 1900 BCE, leading to the eventual end by 1300 BCE.",
+      "reason": "Various factors such as environmental changes, economic shifts, and possible invasions contributed to the decline and eventual collapse of the civilization.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 10,
+      "assertion": "Standardized brick sizes in Harappan cities facilitated the construction of well-structured buildings and drainage systems.",
+      "reason": "The uniformity in brick dimensions allowed for efficient building practices and the creation of complex urban infrastructure.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 11,
+      "assertion": "The Harappan seals were primarily used for religious ceremonies and rituals.",
+      "reason": "The presence of animal motifs and script on the seals suggests their role in trade and administrative functions rather than just religious purposes.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 12,
+      "assertion": "Craft specialization in the Harappan civilization limited economic diversity and trade opportunities.",
+      "reason": "By focusing on specific crafts, individuals could excel in their skills and contribute to the overall economic prosperity through trade and production of goods.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 13,
+      "assertion": "The decline of the Harappan civilization was solely due to environmental changes and natural disasters.",
+      "reason": "While environmental factors played a role, other elements such as economic shifts, political instability, and external pressures also contributed to the decline of the civilization.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 14,
+      "assertion": "Harappan urban planning was primarily focused on aesthetic beauty rather than practical functionality.",
+      "reason": "The layout of Harappan cities with well-planned streets, drainage systems, and public structures indicates a practical approach to urban design for efficiency and sustainability.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 15,
+      "assertion": "John Marshall's identification of the Harappan civilization as significant was based on his discovery of advanced weaponry in Harappan sites.",
+      "reason": "Marshall's recognition of the Harappan civilization as a major ancient culture was primarily due to the urban planning, craft production, and trade networks evident in the archaeological findings.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 16,
+      "assertion": "The emergence of early farming communities directly led to the rise of urban centers like Mohenjodaro and Harappa.",
+      "reason": "While agriculture provided the foundation for settled life, urbanization was a gradual process influenced by various social, economic, and environmental factors over time.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 17,
+      "assertion": "Craft specialization in the Harappan civilization hindered technological advancements and innovation.",
+      "reason": "The expertise of craftsmen in specific trades actually promoted innovation and technological progress in various fields such as metallurgy, pottery, and bead making.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 18,
+      "assertion": "Trade with Mesopotamia during the Harappan civilization had a minimal impact on the cultural exchange and material diffusion between the two regions.",
+      "reason": "The extensive trade connections facilitated by land and sea routes enabled the transfer of goods, ideas, and technologies, influencing both civilizations significantly.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 19,
+      "assertion": "The environmental changes that led to the decline of the Harappan civilization were entirely caused by human activities.",
+      "reason": "While human actions such as deforestation and overexploitation of resources played a role, natural factors like climate shifts and tectonic movements also contributed to the environmental changes affecting the civilization.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 20,
+      "assertion": "The standardization of brick sizes in Harappan cities was primarily for aesthetic purposes rather than practical construction needs.",
+      "reason": "The uniformity in brick dimensions allowed for efficient construction practices, structural stability, and the creation of sophisticated urban infrastructure in Harappan cities.",
+      "options": [
+        "A. True, B. False",
+        "B. True, A. False",
+        "C. Cannot say",
+        "D. None of the above"
+      ],
+      "answer": "B"
+    }
+  ]
+}

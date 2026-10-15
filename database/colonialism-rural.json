@@ -1,0 +1,400 @@
+{
+  "id": "colonialism-rural",
+  "title": "Colonialism and the Countryside",
+  "part": "Part 3",
+  "recurringTopics": [
+    "Zamindars of Bengal",
+    "Permanent Settlement",
+    "Jotedars",
+    "Paharias and Santhals",
+    "Deccan Revolts",
+    "Revenue Policies"
+  ],
+  "timeline": [
+    {
+      "year": "1793",
+      "event": "Permanent Settlement introduced in Bengal."
+    },
+    {
+      "year": "1797",
+      "event": "Auction of zamindari estates in Burdwan."
+    },
+    {
+      "year": "1813",
+      "event": "Fifth Report submitted to the British Parliament."
+    },
+    {
+      "year": "1855",
+      "event": "Santhal Revolt occurs."
+    },
+    {
+      "year": "1875",
+      "event": "Deccan Riots against moneylenders."
+    }
+  ],
+  "mindMap": [
+    {
+      "cause": "High revenue demands",
+      "event": "Zamindars defaulting on payments",
+      "consequence": "Loss of zamindari estates",
+      "explanation": "High demands led to financial crises for zamindars."
+    },
+    {
+      "cause": "Introduction of Permanent Settlement",
+      "event": "Creation of jotedars",
+      "consequence": "Shift in power dynamics in rural Bengal",
+      "explanation": "Jotedars gained power as zamindars struggled."
+    },
+    {
+      "cause": "Colonial revenue policies",
+      "event": "Santhal migration into Rajmahal",
+      "consequence": "Conflict with Paharias",
+      "explanation": "Santhals expanded agriculture, displacing Paharias."
+    },
+    {
+      "cause": "Economic hardships in Deccan",
+      "event": "Peasant revolts",
+      "consequence": "Attacks on moneylenders",
+      "explanation": "Rising debts and high taxes led to unrest."
+    },
+    {
+      "cause": "Fifth Report's findings",
+      "event": "Parliamentary debates on Company rule",
+      "consequence": "Increased scrutiny of colonial policies",
+      "explanation": "Reports highlighted mismanagement and exploitation."
+    }
+  ],
+  "historians": [
+    {
+      "name": "Francis Buchanan",
+      "argument": "Documented the lives and struggles of rural communities under colonial rule."
+    }
+  ],
+  "sources": [
+    {
+      "type": "Official Reports",
+      "description": "Fifth Report detailing zamindar conditions and revenue issues."
+    }
+  ],
+  "maps": "Bengal, Rajmahal hills, Deccan region",
+  "cuetNotes": [
+    "Q: Discuss the impact of the Permanent Settlement on zamindars. A: The Permanent Settlement led to financial crises for zamindars due to high fixed revenue demands."
+  ],
+  "intextQuestions": [
+    {
+      "question": "What were the consequences of the Permanent Settlement for zamindars?",
+      "answer": "The Permanent Settlement often led to financial difficulties for zamindars, resulting in many defaulting on payments and losing their estates."
+    },
+    {
+      "question": "How did jotedars rise to power in rural Bengal?",
+      "answer": "Jotedars gained power as they were local wealthy peasants who could resist zamindars, especially during times of economic distress."
+    },
+    {
+      "question": "What role did the Santhals play in the transformation of the Rajmahal hills?",
+      "answer": "The Santhals migrated into the Rajmahal hills, cleared forests, and established agriculture, which led to conflicts with the Paharias."
+    },
+    {
+      "question": "What prompted the Deccan Riots of 1875?",
+      "answer": "The Deccan Riots were prompted by high revenue demands and oppressive practices of moneylenders, leading peasants to revolt."
+    }
+  ],
+  "pyq": [
+    {
+      "year": 2021,
+      "question": "What was the impact of the Permanent Settlement on zamindars in Bengal?",
+      "options": [
+        "It strengthened their power",
+        "It led to their financial crisis",
+        "It had no impact",
+        "It increased their agricultural output"
+      ],
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "question": "How did the jotedars influence rural society in Bengal?",
+      "options": [
+        "By supporting zamindars",
+        "By becoming moneylenders",
+        "By resisting zamindari authority",
+        "By migrating to cities"
+      ],
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "question": "What was the significance of the Fifth Report?",
+      "options": [
+        "It praised the Company",
+        "It documented zamindar struggles",
+        "It was ignored by Parliament",
+        "It focused on urban issues"
+      ],
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "question": "What led to the Santhal Revolt?",
+      "options": [
+        "High taxes and land loss",
+        "Support from zamindars",
+        "Peaceful negotiations",
+        "Colonial reforms"
+      ],
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "question": "What characterized the Deccan Riots?",
+      "options": [
+        "Peaceful protests",
+        "Attacks on moneylenders",
+        "Support from the British",
+        "Formation of new zamindaris"
+      ],
+      "answer": "B"
+    }
+  ],
+  "assertionReasonQuestions": [
+    {
+      "question_id": 1,
+      "assertion": "The Permanent Settlement introduced in Bengal in 1793 led to a significant shift in power dynamics in rural Bengal.",
+      "reason": "The zamindars, who previously held significant power, now faced economic hardships and loss of their estates due to high revenue demands.",
+      "options": [
+        "A. True, because zamindars gained more power under the Permanent Settlement.",
+        "B. False, as the Permanent Settlement had no impact on power dynamics in rural Bengal.",
+        "C. True, because the Permanent Settlement favored the interests of the rural communities.",
+        "D. False, as the zamindars were unaffected by the Permanent Settlement."
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 2,
+      "assertion": "The auction of zamindari estates in Burdwan in 1797 resulted in economic hardships for the zamindars.",
+      "reason": "The high revenue demands imposed by the colonial administration led to many zamindars losing their estates through auctions.",
+      "options": [
+        "A. True, as the auction of zamindari estates in Burdwan was conducted to empower the zamindars.",
+        "B. False, since the zamindars were able to retain their estates through the auctions.",
+        "C. True, because the auction was a means for the colonial administration to increase revenue collection.",
+        "D. False, as the auctions were a way for zamindars to acquire more estates."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 3,
+      "assertion": "The Deccan Riots against moneylenders in 1875 were a response to the economic hardships faced by the rural communities.",
+      "reason": "The high interest rates charged by moneylenders exacerbated the economic struggles of the rural population in the Deccan region.",
+      "options": [
+        "A. True, as the Deccan Riots were a reaction to the economic exploitation by moneylenders.",
+        "B. False, since the Deccan Riots were unrelated to economic issues.",
+        "C. True, because the moneylenders were offering favorable terms to the rural communities.",
+        "D. False, as the Deccan Riots were a result of political tensions."
+      ],
+      "answer": "A"
+    },
+    {
+      "question_id": 4,
+      "assertion": "The Fifth Report submitted to the British Parliament in 1813 led to increased scrutiny of colonial revenue policies in India.",
+      "reason": "The findings of the report revealed the negative impact of colonial revenue policies on the rural communities in India.",
+      "options": [
+        "A. True, as the Fifth Report highlighted the positive effects of colonial revenue policies.",
+        "B. False, since the Fifth Report had no impact on colonial revenue policies.",
+        "C. True, because the report prompted a reevaluation of the existing revenue policies in India.",
+        "D. False, as the report praised the colonial revenue policies."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 5,
+      "assertion": "Francis Buchanan's documentation of the lives and struggles of rural communities under colonial rule shed light on the harsh realities faced by the rural population.",
+      "reason": "Buchanan's work highlighted the social and economic challenges experienced by rural communities due to colonial policies.",
+      "options": [
+        "A. True, as Buchanan's work aimed to glorify the colonial administration's efforts.",
+        "B. False, since Buchanan's documentation painted a rosy picture of rural life under colonial rule.",
+        "C. True, because Buchanan's work exposed the hardships endured by rural communities.",
+        "D. False, as Buchanan's documentation focused solely on the achievements of the colonial administration."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 6,
+      "assertion": "The conflict between the colonial revenue policies and the Paharias in India can be attributed to the high revenue demands imposed on the rural communities.",
+      "reason": "The economic burden placed on the Paharias by the colonial revenue policies resulted in tensions and conflicts in the region.",
+      "options": [
+        "A. True, as the colonial revenue policies were designed to benefit the Paharias.",
+        "B. False, since the colonial revenue policies had no impact on the Paharias.",
+        "C. True, because the high revenue demands created unrest among the Paharias.",
+        "D. False, as the Paharias supported the colonial revenue policies."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 7,
+      "assertion": "The Santhal Revolt in 1855 was a response to the oppressive measures imposed by the colonial administration in Bengal.",
+      "reason": "The Santhals rebelled against the unjust land policies and exploitation by the colonial authorities.",
+      "options": [
+        "A. True, as the Santhal Revolt was a peaceful protest against the colonial administration.",
+        "B. False, since the Santhal Revolt was unrelated to colonial policies in Bengal.",
+        "C. True, because the Santhals sought to challenge the oppressive measures enforced by the colonial administration.",
+        "D. False, as the Santhals were content with the colonial policies."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 8,
+      "assertion": "The Jotedars played a significant role in challenging the revenue policies of the colonial administration.",
+      "reason": "The Jotedars, as influential landowners, resisted the economic exploitation and high revenue demands imposed by the colonial authorities.",
+      "options": [
+        "A. True, as the Jotedars collaborated with the colonial administration in implementing revenue policies.",
+        "B. False, since the Jotedars supported the colonial revenue policies.",
+        "C. True, because the Jotedars resisted the economic exploitation by the colonial administration.",
+        "D. False, as the Jotedars benefited from the high revenue demands."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 9,
+      "assertion": "The introduction of the Permanent Settlement in Bengal in 1793 aimed to empower the rural communities.",
+      "reason": "The Permanent Settlement shifted power from the zamindars to the rural population, leading to economic stability and prosperity.",
+      "options": [
+        "A. True, as the Permanent Settlement favored the interests of the zamindars.",
+        "B. False, since the Permanent Settlement had no impact on the rural communities.",
+        "C. True, because the Permanent Settlement improved the economic conditions of the rural population.",
+        "D. False, as the Permanent Settlement disadvantaged the rural communities."
+      ],
+      "answer": "D"
+    },
+    {
+      "question_id": 10,
+      "assertion": "The loss of zamindari estates under the Permanent Settlement led to increased economic hardships for the rural population in Bengal.",
+      "reason": "The high revenue demands and loss of land ownership negatively impacted the economic well-being of the rural communities.",
+      "options": [
+        "A. True, as the loss of zamindari estates benefited the rural population.",
+        "B. False, since the loss of zamindari estates had no impact on the rural communities.",
+        "C. True, because the loss of land ownership intensified economic struggles in rural Bengal.",
+        "D. False, as the loss of zamindari estates improved the economic conditions in Bengal."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 11,
+      "assertion": "The Deccan Riots against moneylenders in 1875 were a result of the favorable terms offered by the moneylenders to the rural communities.",
+      "reason": "The high interest rates and exploitative practices of the moneylenders contributed to the economic distress faced by the rural population.",
+      "options": [
+        "A. True, as the moneylenders provided financial support to the rural communities.",
+        "B. False, since the Deccan Riots were unrelated to the moneylenders' practices.",
+        "C. True, because the Deccan Riots were sparked by the moneylenders' exploitative practices.",
+        "D. False, as the moneylenders' terms were beneficial for the rural communities."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 12,
+      "assertion": "The findings of the Fifth Report submitted to the British Parliament in 1813 highlighted the positive impact of colonial revenue policies on the rural communities.",
+      "reason": "The report praised the colonial administration for implementing fair and just revenue policies that benefited the rural population.",
+      "options": [
+        "A. True, as the Fifth Report commended the colonial revenue policies for their positive outcomes.",
+        "B. False, since the Fifth Report criticized the colonial revenue policies for their negative effects.",
+        "C. True, because the report acknowledged the hardships faced by the rural communities under colonial rule.",
+        "D. False, as the report misrepresented the impact of colonial revenue policies."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 13,
+      "assertion": "Francis Buchanan's documentation of the lives and struggles of rural communities under colonial rule aimed to glorify the achievements of the colonial administration.",
+      "reason": "Buchanan's work portrayed a favorable image of rural life under colonial rule, emphasizing the benefits brought by the British presence.",
+      "options": [
+        "A. True, as Buchanan's work highlighted the challenges faced by rural communities under colonial rule.",
+        "B. False, since Buchanan's documentation misrepresented the hardships endured by rural communities.",
+        "C. True, because Buchanan's work aimed to showcase the positive impact of colonial policies on rural life.",
+        "D. False, as Buchanan's documentation focused solely on the struggles of rural communities."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 14,
+      "assertion": "The conflict between the colonial revenue policies and the Paharias in India was a result of the favorable treatment received by the Paharias from the colonial administration.",
+      "reason": "The economic burden imposed on the Paharias by the colonial revenue policies led to tensions and conflicts in the region.",
+      "options": [
+        "A. True, as the colonial revenue policies provided special privileges to the Paharias.",
+        "B. False, since the colonial revenue policies had no impact on the Paharias.",
+        "C. True, because the economic hardships created unrest among the Paharias.",
+        "D. False, as the Paharias supported the colonial revenue policies."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 15,
+      "assertion": "The Santhal Revolt in 1855 was unrelated to the land policies and exploitation by the colonial administration in Bengal.",
+      "reason": "The Santhals rebelled against the unjust land practices and economic exploitation imposed by the British authorities.",
+      "options": [
+        "A. True, as the Santhal Revolt had no connection to colonial policies in Bengal.",
+        "B. False, since the Santhal Revolt was a response to colonial oppression in Bengal.",
+        "C. True, because the Santhals were content with the land policies in Bengal.",
+        "D. False, as the Santhals were satisfied with the colonial administration's practices."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 16,
+      "assertion": "The Jotedars fully supported the revenue policies of the colonial administration, leading to economic prosperity in rural India.",
+      "reason": "The Jotedars collaborated with the colonial authorities to implement fair and just revenue policies that benefited the rural population.",
+      "options": [
+        "A. True, as the Jotedars opposed the revenue policies enforced by the colonial administration.",
+        "B. False, since the Jotedars resisted the colonial revenue policies.",
+        "C. True, because the Jotedars played a crucial role in promoting economic prosperity in rural India.",
+        "D. False, as the Jotedars benefited from the economic hardships faced by the rural communities."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 17,
+      "assertion": "The introduction of the Permanent Settlement in Bengal in 1793 had no impact on power dynamics in rural Bengal.",
+      "reason": "The Permanent Settlement favored the zamindars and maintained the existing power structures in rural Bengal.",
+      "options": [
+        "A. True, as the Permanent Settlement empowered the rural communities in Bengal.",
+        "B. False, since the Permanent Settlement altered power dynamics in rural Bengal.",
+        "C. True, because the zamindars lost their influence under the Permanent Settlement.",
+        "D. False, as the Permanent Settlement strengthened the power of the rural population."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 18,
+      "assertion": "The loss of zamindari estates under the Permanent Settlement in Bengal had no impact on the economic well-being of the rural population.",
+      "reason": "The loss of land ownership and economic hardships resulting from the Permanent Settlement negatively affected the rural communities in Bengal.",
+      "options": [
+        "A. True, as the loss of zamindari estates improved the economic conditions in Bengal.",
+        "B. False, since the loss of zamindari estates intensified economic struggles in rural Bengal.",
+        "C. True, because the loss of land ownership benefited the rural population.",
+        "D. False, as the loss of zamindari estates had no impact on the rural communities."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": 19,
+      "assertion": "The Deccan Riots against moneylenders in 1875 were a result of the economic prosperity experienced by the rural communities.",
+      "reason": "The high interest rates and exploitative practices of the moneylenders contributed to the economic distress faced by the rural population in the Deccan region.",
+      "options": [
+        "A. True, as the Deccan Riots were a celebration of the economic prosperity in the region.",
+        "B. False, since the Deccan Riots were unrelated to economic issues in the Deccan region.",
+        "C. True, because the Deccan Riots were sparked by the moneylenders' exploitative practices.",
+        "D. False, as the Deccan Riots were a result of political tensions."
+      ],
+      "answer": "C"
+    },
+    {
+      "question_id": 20,
+      "assertion": "The findings of the Fifth Report submitted to the British Parliament in 1813 praised the positive impact of colonial revenue policies on the rural communities.",
+      "reason": "The report highlighted the adverse effects of colonial revenue policies on the rural population, prompting a reevaluation of existing policies.",
+      "options": [
+        "A. True, as the Fifth Report commended the colonial revenue policies for their positive outcomes.",
+        "B. False, since the Fifth Report misrepresented the impact of colonial revenue policies on the rural communities.",
+        "C. True, because the report acknowledged the hardships faced by the rural communities under colonial rule.",
+        "D. False, as the report failed to address the negative impact of colonial revenue policies."
+      ],
+      "answer": "B"
+    }
+  ]
+}

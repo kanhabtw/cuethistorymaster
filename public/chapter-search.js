@@ -1,6 +1,6 @@
 // Search functionality for filtering chapters
 if (typeof document !== 'undefined') {
-document.addEventListener('DOMContentLoaded', () => {
+const initializeSearch = () => {
     const searchInput = document.getElementById('search-chapters');
     
     if (searchInput) {
@@ -17,7 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-});
+};
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeSearch, { once: true });
+} else {
+    initializeSearch();
+}
 
 function filterChapters(searchTerm) {
     const navButtons = document.querySelectorAll('.nav-btn');
@@ -109,4 +114,5 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+}
 }
